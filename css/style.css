@@ -1,0 +1,71 @@
+.topOfnavContainer {
+  padding: 5px 0;
+  color: white;
+  background-color: #333333;
+}
+.topOfnavContainer1 {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ul2 {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ul2 li:hover {
+  color: rgb(218, 134, 134);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.fa-cart-shopping {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.shopping {
+  color: rgb(68, 205, 5);
+}
+
+/* *** start mainNav************ */
+
+.mainNav {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.logo img {
+  width: 200px;
+}
+.middleNav {
+  width: 400px;
+  padding-top: 10px;
+}
+.middleNav ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.search {
+  width: 200px;
+  border: 0.5px solid black;
+}
+.search h5 {
+  margin-left: 5px;
+}
+.fa-magnifying-glass {
+  margin-left: 80px;
+  margin-top: 5px;
+  font-size: 14px;
+}
